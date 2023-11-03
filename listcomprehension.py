@@ -1,3 +1,7 @@
 x = [0,1,2,3,4,5,6,7,8,9]
 y = [True, False, False, True, "False", False, True, True, True, "True"]
-
+a = [num*2 for num in x]
+b = [num for num in x if num % 2 == 0]
+c = [val for val in y if val == True]
+d = [val for val in y if val != True and val !=False]
+e = [[True for num in range(num)] for num in x if num % 2 != 0]

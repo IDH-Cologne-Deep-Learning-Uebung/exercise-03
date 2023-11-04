@@ -1,7 +1,7 @@
 # jeder Buchstabe aus dem Wort "word" als Liste mit For-Schleife
 l = []
-for buchstabe in "word":
-    l.append(buchstabe) 
+for b in "word":
+    l.append(b) 
 print(l)
 
 # jeder Buchstabe aus dem Wort "word" als Liste mit List Comprehension
